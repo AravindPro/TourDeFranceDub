@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+header{
+	height: max(5%, 100px);
+}
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-wrap: wrap;
+	flex-grow: 1;
+
+	justify-content: space-between;
+	align-items: center;
+}
+.flex-item-spb{
+	margin: none;
+	max-width: 30%
+}
+.left-element{
+	margin-left: 5%;
+}
+
+.header-inner{
+	display: inline-block;
+	margin: 0px 10px;
+	padding: 10px 5px;
+}
+
+.header-img{
+	max-height: 50px;
+}
+.flex-container-compact{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+#login{
+	margin-right: 0px;
+	min-width: 200px;
+	display: flex;
+	justify-content: start;
+		overflow: hidden;
+}
+p{
+	margin: auto 0px
+}
+
+.head-2{
+	height: fit-content;
+}
+.reverse-skew{
+	transform: skew(20deg);
+}
+
+.grid-compact{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 40%;
+	margin-top: 5%;
+}
+
+.grid-ele-fill{
+	width: 150%;
+	margin: 0px;
+	background: linear-gradient(rgba(14, 7, 7, 0.7), rgba(14, 7, 7, 0.7)), url('./imgs/cyclepic-1.jpg');
+	background-repeat:repeat-x;
+	background-size: contain;
+}	
+
+.grid-ele-skew{
+	width: 125%;
+	background: linear-gradient(rgba(14, 7, 7, 0.7), rgba(14, 7, 7, 0.7)),
+		url('./imgs/cyclepic-2.jpg');
+	transform: skew(-20deg);
+	background-repeat: repeat-x;
+	background-size: contain;
+}
+.hover-zoom:hover{
+	transform: scaleX(1.1);
+	
+}
+
+.pic-grid{
+	min-height: 100px;
+}

@@ -1,0 +1,31 @@
+.grey-item{
+	background-color: rgb(46, 46, 46);
+	color: white;
+}
+
+.hover-y-underline:hover{
+	border-bottom: 4px solid yellow;
+}
+
+.flash:hover{
+	background-color: black;
+}
+
+.black{
+	background-color: black;
+	color: white;
+}
+.white{
+	background-color: white;
+	color: black;
+}
+#below-logo{
+	padding: 10px;
+	background-color: yellow;
+	color: black;
+	position: relative;
+	right: 70px;
+	top: 40px;
+	border-radius: 10px 0px;
+	transform: skew(-20deg);
+}
